@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1062" height="857.111" viewBox="227.378 0 1062 857.111" fill="none">
+<g xmlns="http://www.w3.org/2000/svg" id="Light / rainbow Â· mint" filter="url(#filter1_f_0_45)">
+<ellipse cx="758.378" cy="428.556" rx="461" ry="358.556" fill="url(#paint1_radial_0_45)" />
+</g>
+
+<defs>
+<filter xmlns="http://www.w3.org/2000/svg" id="filter1_f_0_45" x="227.378" y="0" width="1062" height="857.111" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix" />
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+<feGaussianBlur stdDeviation="35" result="softLight" />
+<!-- Dither the blurred light's alpha; transparent surroundings stay transparent. -->
+<feTurbulence type="fractalNoise" baseFrequency=".82" numOctaves="3" seed="28" stitchTiles="stitch" result="noise"/>
+<feComponentTransfer in="noise" result="grainAlpha">
+<feFuncA type="linear" slope=".5" intercept=".73"/>
+</feComponentTransfer>
+<feComposite in="softLight" in2="grainAlpha" operator="in"/>
+</filter>
+<radialGradient xmlns="http://www.w3.org/2000/svg" id="paint1_radial_0_45" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(758.378 428.556) scale(461 358.556)">
+<stop stop-color="#33E06E" stop-opacity="0.28" />
+<stop offset="0.45" stop-color="#33E06E" stop-opacity="0.14" />
+<stop offset="1" stop-color="#33E06E" stop-opacity="0" />
+</radialGradient>
+
+</defs>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="947.556" height="742.667" viewBox="663.644 87.9556 947.556 742.667" fill="none">
+<g xmlns="http://www.w3.org/2000/svg" id="Light / rainbow Â· cyan" filter="url(#filter2_f_0_45)">
+<ellipse cx="1137.42" cy="459.289" rx="409.778" ry="307.333" fill="url(#paint2_radial_0_45)" />
+</g>
+
+<defs>
+<filter xmlns="http://www.w3.org/2000/svg" id="filter2_f_0_45" x="663.644" y="87.9556" width="947.556" height="742.667" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix" />
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+<feGaussianBlur stdDeviation="32" result="softLight" />
+<!-- Dither the blurred light's alpha; transparent surroundings stay transparent. -->
+<feTurbulence type="fractalNoise" baseFrequency=".82" numOctaves="3" seed="29" stitchTiles="stitch" result="noise"/>
+<feComponentTransfer in="noise" result="grainAlpha">
+<feFuncA type="linear" slope=".5" intercept=".73"/>
+</feComponentTransfer>
+<feComposite in="softLight" in2="grainAlpha" operator="in"/>
+</filter>
+<radialGradient xmlns="http://www.w3.org/2000/svg" id="paint2_radial_0_45" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1137.42 459.289) scale(409.778 307.333)">
+<stop stop-color="#1AA6FF" stop-opacity="0.25" />
+<stop offset="1" stop-color="#1AA6FF" stop-opacity="0" />
+</radialGradient>
+
+</defs>
+</svg>

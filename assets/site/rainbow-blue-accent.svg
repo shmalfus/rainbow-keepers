@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="864" height="667" viewBox="0 0 864 667" preserveAspectRatio="none">
+<defs>
+<radialGradient id="blue" cx=".5" cy=".5" r=".707107">
+<stop stop-color="#42b9ff" stop-opacity=".22"/>
+<stop offset=".4" stop-color="#37a4ff" stop-opacity=".1"/>
+<stop offset=".72" stop-color="#37a4ff" stop-opacity="0"/>
+</radialGradient>
+<filter id="grain" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+<feOffset in="SourceGraphic" result="softLight"/>
+<!-- Dither the blurred light's alpha; transparent surroundings stay transparent. -->
+<feTurbulence type="fractalNoise" baseFrequency=".82" numOctaves="3" seed="37" stitchTiles="stitch" result="noise"/>
+<feComponentTransfer in="noise" result="grainAlpha">
+<feFuncA type="linear" slope=".5" intercept=".73"/>
+</feComponentTransfer>
+<feComposite in="softLight" in2="grainAlpha" operator="in"/>
+</filter>
+</defs>
+<rect width="864" height="667" fill="url(#blue)" filter="url(#grain)"/>
+</svg>

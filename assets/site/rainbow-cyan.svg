@@ -1,0 +1,22 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="512" height="472" viewBox="0 0 512 472" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Light / rainbow &#194;&#183; cyan" filter="url(#filter0_f_0_48)">
+<ellipse cx="256" cy="236" rx="200" ry="180" fill="url(#paint0_radial_0_48)"/>
+</g>
+<defs>
+<filter id="filter0_f_0_48" x="0" y="0" width="512" height="472" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="28" result="softLight"/>
+<!-- Dither the blurred light's alpha; transparent surroundings stay transparent. -->
+<feTurbulence type="fractalNoise" baseFrequency=".82" numOctaves="3" seed="19" stitchTiles="stitch" result="noise"/>
+<feComponentTransfer in="noise" result="grainAlpha">
+<feFuncA type="linear" slope=".5" intercept=".73"/>
+</feComponentTransfer>
+<feComposite in="softLight" in2="grainAlpha" operator="in"/>
+</filter>
+<radialGradient id="paint0_radial_0_48" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 236) scale(200 180)">
+<stop stop-color="#1AA6FF" stop-opacity="0.31"/>
+<stop offset="1" stop-color="#1AA6FF" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
