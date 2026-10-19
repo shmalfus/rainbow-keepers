@@ -1,5 +1,7 @@
 # Хранители радуги — Играющие люди
 
+https://shmalfus.github.io/rainbow-keepers/
+
 Адаптивная страница по актуальным **тёмным** макетам Figma:
 [десктоп](https://www.figma.com/design/ce7cAqzHJ7DWP9Lu7MsQYT/Lights?node-id=359-77),
 [мобильная версия](https://www.figma.com/design/ce7cAqzHJ7DWP9Lu7MsQYT/Lights?node-id=397-103).
