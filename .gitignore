@@ -1,0 +1,21 @@
+# Local system and editor state
+.DS_Store
+/.openai/
+/.codex/
+/.agents/
+/.aws/
+.env
+.env.*
+!.env.example
+
+# Source photos, briefs, previews, and downloadable archives
+/Photos/
+/*.zip
+/Праздник фонариков.pdf
+/tmp/
+/output/
+
+# The current page uses only these asset directories
+/assets/*
+!/assets/site/
+!/assets/fonts/
